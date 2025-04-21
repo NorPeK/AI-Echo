@@ -32,13 +32,14 @@ Repository Structure
 
 ```
 .
-├─ football_tts_pipeline.py      # End‑to‑end demo (YouTube → clean voice → Whisper → GPT → ElevenLabs)
-├─ example.py                    # One‑liner demo with hand‑tuned sliders
-├─ data/                         # Place raw & processed audio / transcripts here
-├─ models/
-│   ├─ tfidf_vectorizer.pkl      # Saved TF‑IDF vocabulary
-│   └─ text_prediction_model.pkl # Saved RandomForestRegressor weights
-├─ .env.example                  # Template for all API keys
+ai_echo_website/
+└─ backend/
+   ├─ Ai_Echo_model.py
+   ├─ fastapi_app.py
+   ├─ tfidf_vectorizer.pkl
+   ├─ param_model.joblib       
+   ├─ .env
+   └─ requirements.txt
 └─ README.md
 ```
 

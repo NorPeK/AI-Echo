@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+yt_dlp
+requests
+openai
+whisper
+elevenlabs
+sentence-transformers
+scikit-learn
+joblib
+numpy
